@@ -1,0 +1,14 @@
+# Core dependencies
+watchdog==2.1.6          # File system monitoring
+scikit-learn==1.0.2      # Machine learning for text similarity
+Pillow==9.5.0            # Image processing
+imagehash==4.3.1         # Perceptual hashing for image similarity
+
+# Optional dependencies (for advanced features)
+scikit-image==0.19.3     # Structural Similarity Index (SSIM) for image comparison
+requests==2.28.1         # For future cloud integration
+numpy==1.23.5            # Numerical computations (required by scikit-learn and scikit-image)
+
+# Development dependencies
+pytest==7.2.0            # Testing framework
+pytest-cov==4.0.0        # Code coverage reporting
